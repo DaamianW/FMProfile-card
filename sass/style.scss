@@ -1,3 +1,8 @@
+$DarkCyan: hsl(185, 75%, 39%);
+$DesaturatedBlue: hsl(229, 23%, 23%);
+$GrayishBlue:hsl(227, 10%, 46%);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +11,13 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 body {
     font-size: 1.6rem;
+    background-color: $DarkCyan;
+    background-image: url('/img/bg-pattern-top.svg');
+    background-image: url('/img/bg-pattern-bottom.svg');
 }
 
