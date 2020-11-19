@@ -11,9 +11,20 @@ html {
 }
 
 body {
+  position: relative;
   font-size: 1.6rem;
   background-color: #19a2ae;
-  background-image: url("/img/bg-pattern-top.svg");
-  background-image: url("/img/bg-pattern-bottom.svg");
+}
+
+.bg-pattern-top {
+  position: absolute;
+  top: -200%;
+  left: -10%;
+}
+
+.bg-pattern-bottom {
+  position: absolute;
+  right: -10%;
+  top: 300%;
 }
 /*# sourceMappingURL=style.css.map */
